@@ -34,13 +34,6 @@ class MyCmd(Cmd):
             print doc
         return help
 
-    def default(self, line):
-        if not line.startswith('_') and hasattr(self.module, line):
-            result = getattr(self.module, line)()
-            print(result)
-        else:
-            return Cmd.default(self, line)
-
     def do_quit(self, arg):
         print('\nGoodBye!\n')
         return True
