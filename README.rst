@@ -1,9 +1,10 @@
 What is this?
 =============
 
-This is just a repo to learn the Python Cmd library. I have a need to be able to
-dynamically generate a command line utilites base on a module api. So this will
-be an area to POC that out.
+This is just a repo to learn the 
+`Python Cmd library <http://docs.python.org/2/library/cmd.html#cmd.Cmd.postcmd>`_. 
+I have a need to be able to dynamically generate a command line utilites base on 
+a module api. So this will be an area to POC that out.
 
 How do I run this?
 ==================
