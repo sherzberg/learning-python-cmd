@@ -6,6 +6,8 @@ This is just a repo to learn the
 I have a need to be able to dynamically generate a command line utilites base on 
 a module api. So this will be an area to POC that out.
 
+I used bits and pieces from `this blog post <http://blog.fogcreek.com/cheeky-python-a-redis-cli>`_.
+
 How do I run this?
 ==================
 
@@ -25,3 +27,4 @@ Next run the command:
     (platform) processor
     (platform) quit
     $ 
+
