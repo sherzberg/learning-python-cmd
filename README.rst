@@ -19,7 +19,7 @@ Next run the command:
 
 ::
 
-    $ python mycmd.py
+    $ python platform-cmd.py
     (platform) help
     ... #see output
     (platform) help machine
