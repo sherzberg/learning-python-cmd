@@ -26,18 +26,19 @@ class MyCmd(Cmd):
     def _build_command(self, name):
         def command(self, line):
             args = line.split()
-            print getattr(self.module, name)(*args)
+            print(getattr(self.module, name)(*args))
         return command
 
     def _build_help(self, doc):
         def help(self):
-            print doc
+            print(doc)
         return help
 
     def do_quit(self, arg):
         print('\nGoodBye!\n')
         return True
 
+    do_exit = do_quit
     do_q = do_quit
     do_EOF = do_quit
 
