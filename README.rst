@@ -13,7 +13,7 @@ How do I run this?
 
 You need to install:
 
-1. Python (I tested it with 2.7 cpython)
+1. Python (I tested it with 2.7 cpython, 3.3 cpython, and pypy)
 
 Next run the command:
 
